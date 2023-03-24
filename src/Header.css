@@ -1,0 +1,17 @@
+.hana {
+  animation-name: dix;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes dix {
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(-600px);
+    }
+}
